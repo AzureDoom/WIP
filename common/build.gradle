@@ -15,7 +15,7 @@ dependencies {
 
     modCompileOnly "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
     modCompileOnly "net.fabricmc:fabric-loader:${fabric_loader_version}"
-	compileOnly "mod.azure.azurelib:azurelib-neo-${minecraft_version}:${azurelib_version_forge}"
+	compileOnly "mod.azure.azurelib:azurelib-fabric-${minecraft_version}:${azurelib_version_fabric}"
 }
 
 publishing {
