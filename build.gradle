@@ -30,6 +30,10 @@ subprojects {
             ])
         }
     }
+	
+    repositories {
+        maven {url 'https://libs.azuredoom.com:4443/mods' }
+    }
 
     sourcesJar {
         from(rootProject.file("LICENSE")) {
@@ -44,7 +48,7 @@ subprojects {
 
     plugins.withId('dev.architectury.loom') {
         loom {
-            accessWidenerPath = project(":common").file("src/main/resources/examplemod.accesswidener")
+            accessWidenerPath = project(":common").file("src/main/resources/avpr.accesswidener")
         }   
     }
 

@@ -19,20 +19,20 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+          "mod.avpr.AVPRFabricMod"
         ],
         "client": [
-            "com.example.examplemod.ExampleModClient"
+            "mod.avpr.AVPRFabricModClient"
         ],
         "fabric-datagen": [
-            "com.example.examplemod.ExampleModDatagen"
+            "mod.avpr.AVPRFabricModDatagen"
         ]
     },
     "mixins": [
         "${mod_id}.mixins.json",
         "${mod_id}.fabric.mixins.json"
     ],
-    "accessWidener": "examplemod.accesswidener",
+    "accessWidener": "avpr.accesswidener",
     "depends": {
         "fabricloader": ">=0.14",
         "fabric": "*",

@@ -62,6 +62,7 @@ dependencies {
     modImplementation "dev.su5ed.sinytra.fabric-api:fabric-api:${forge_fabric_version}"
 
     compileOnly project(":common")
+	implementation "mod.azure.azurelib:azurelib-neo-${minecraft_version}:${azurelib_version_forge}"
 }
 
 tasks.withType(JavaCompile).configureEach {
